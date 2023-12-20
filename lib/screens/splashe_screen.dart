@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 import '../main.dart';
+import '../widgets/bottom_navigation.dart';
 import 'login.dart';
 
 class Splashscreen extends StatefulWidget {
@@ -21,7 +22,7 @@ class _SplashscreenState extends State<Splashscreen> {
       Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (BuildContext context) => const TermsCondition2(),
+          builder: (BuildContext context) =>  BottomPage(),
         ),
       );
     });
