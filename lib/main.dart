@@ -1,5 +1,6 @@
 import 'package:enfo_ai/screens/login.dart';
 import 'package:enfo_ai/screens/splashe_screen.dart';
+import 'package:enfo_ai/test2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Splashscreen(),
+      home:  MyHomePage(),
     );
   }
 }
